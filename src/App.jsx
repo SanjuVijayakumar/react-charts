@@ -34,7 +34,7 @@ function App() {
   return (
     <>
       <h1>Kerala Population</h1>
-      <Chart data={data} />
+      <Chart data={data} location="Kerala" />
     </>
   )
 }
