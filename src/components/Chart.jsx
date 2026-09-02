@@ -19,7 +19,7 @@ ChartJS.register(
   Legend
 )
 
-const Chart = (displayTitle = true, displayLegend = true, legendPosition = 'right') => {
+const Chart = (displayTitle = true, displayLegend = true, legendPosition = 'bottom') => {
     const [data, setData] = useState({
         labels: ['Palakkad', 'Thrissur', 'Eranakulam', 'Trivandrum'],
         datasets: [
