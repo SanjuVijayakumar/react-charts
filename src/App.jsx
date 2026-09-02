@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import Chart from './components/Chart'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      hello world
+      <Chart />
     </>
   )
 }
